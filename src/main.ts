@@ -25,14 +25,14 @@ let html = '';
 for (const employee of employees) {
   html += `
   <div class="employee">
-  <div>${employee.address.phone} ${employee.lastName}</div> 
+  <div>${employee.firstName} ${employee.lastName} - ${employee.address.phone}</div> 
   </div>
   `;
 }
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
-    <h1>There are ${employees.length} employees.</h1>
+    <h1>There are ${employees.length} employees</h1>
     ${html}
   </div>
 `
