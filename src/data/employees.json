@@ -180,5 +180,25 @@
 		"notes": "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.",
 		"reportsTo": 5,
 		"territoryIDs": [3049, 3801, 48075, 48084, 48304, 55113, 55439]
+	},
+	{
+		"employeeID": 9,
+		"lastName": "Smith",
+		"firstName": "Anne",
+		"title": "Sales Representative",
+		"titleOfCourtesy": "Ms.",
+		"birthDate": "1966-01-27 00:00:00.000",
+		"hireDate": "1994-11-15 00:00:00.000",
+		"address": {
+			"street": "7 Houndstooth Rd.",
+			"city": "London",
+			"region": "NULL",
+			"postalCode": "WG2 7LT",
+			"country": "UK",
+			"phone": "(71) 555-4444"
+		},
+		"notes": "Anne has a BA degree in English from St. Lawrence College.  She is fluent in French and German.",
+		"reportsTo": 5,
+		"territoryIDs": [3049, 3801, 48075, 48084, 48304, 55113, 55439]
 	}
 ]
